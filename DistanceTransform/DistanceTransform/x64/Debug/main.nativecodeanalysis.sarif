@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/pytho/projects/distancetransform/distancetransform/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "e165bea3cdd490e5029a282f8df874e6f92b5e491d5e63968a752da491af966a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pytho/projects/distancetransform/distancetransform/include/glad/gl.h"
+          },
+          "hashes": {
+            "sha-256": "4cc43daa2c96cef1bd42ed6cdf2327a977c144848ea0970fdda8208034be3f57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/pytho/projects/distancetransform/distancetransform/include/khr/khrplatform.h"
+          },
+          "hashes": {
+            "sha-256": "7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/glfw/include/glfw/glfw3.h"
+          },
+          "hashes": {
+            "sha-256": "aa370985f6b493bbe0358a36ab49f5780a6397c0209c6d98a62143dea595b73c"
+          }
+        }
+      ]
+    }
+  ]
+}
